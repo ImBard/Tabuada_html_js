@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #67a5d4;
+}
+.content
+{
+  width: 470px;
+  border-radius: 5px;
+  padding: 25px 25px 40px;
+  background: #191919;
+  box-shadow: 0 50px 55px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  transition: height 0.2s ease-in-out;
+
+}
+.content .input input
+{
+    visibility: visible;
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.content .input button
+{
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.content .input input:focus
+{
+  width: 270px
+}
+.content .labels label
+{
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  width: 200px;
+  color: aliceblue;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.content .labels
+{
+  visibility: hidden;
+  display: block;
+  margin: 20px auto;
+  align-items: center;
+  border: 1px solid darkviolet;
+  width: 200px;
+  color: aliceblue;
+  flex-wrap: wrap;
+  flex-direction: column;
+  transition: 0.5s;
+}
+
+.content .divLabel
+{
+  visibility: hidden;
+  display: block;
+  margin: 20px auto;
+  align-items: center;
+  border: 1px solid darkviolet;
+  width: 200px;
+  color: aliceblue;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.content .divLabel label
+{
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  width: 200px;
+  color: aliceblue;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
